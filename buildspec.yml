@@ -1,16 +1,16 @@
   es (18 sloc)  379 Bytes
-    version: 0.2
+version: 0.2
 
-  phases:
-    install:
-      runtime-versions:
-        java: corretto11
-    build:
-      commands:
-        - ./gradlew bootJar
-    post_build:
-      commands:
-        - echo Build completed
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  build:
+    commands:
+      - ./gradlew bootJar
+  post_build:
+    commands:
+      - echo Build completed
   artifacts:
     files:
       - build/libs/*.jar
