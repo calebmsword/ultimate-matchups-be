@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
 sudo pkill -f 'java -jar'
