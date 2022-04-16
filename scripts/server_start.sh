@@ -4,4 +4,4 @@ cd /home/ec2-user/server
 #  *.jar > /dev/null 2> /dev/null < /dev/null &
 #  *.jar < /dev/null &
 
-sudo java -jar -D server.port=80 *.jar > "../logs/$(date +%F_%T).log" 2>&1 < /dev/null &
+sudo java -jar -Dserver.port=80 *.jar > "../logs/$(date +%F_%T).log" 2>&1 < /dev/null &
