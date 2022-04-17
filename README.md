@@ -10,6 +10,7 @@ Tech stack:
 - mySQL
 - JUnit
 - Mockito
-- Emailjs (may use Spring Email combined with AWS services instead)
-- Github
-- CodePipeline, CodeBuild, CodeDeploy, EC2
+- AWS CodePipeline
+- AWS CodeBuild
+- AWS CodeDeploy
+- AWS EC2
